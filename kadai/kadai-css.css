@@ -1,0 +1,24 @@
+/** {*/
+/*    margin:0px;*/
+/*    padding:0px;*/
+/*}*/
+header {
+     background-color:#ffcccc;
+     width:1000px;
+}
+#main {
+    background-color:#ccffcc;
+    width:700px;
+}
+#menu {
+    background-color:#ccccff;
+    width:300px;
+    float:right;
+    }
+footer {
+    background-color:#ffccff;
+    width:1000px;
+}
+#wrapper {
+    width:1000px;
+}
