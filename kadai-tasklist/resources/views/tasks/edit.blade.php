@@ -7,11 +7,12 @@
     
     {!! Form::model($task, ['route' => ['tasks.update', $task->id], 'method' => 'put']) !!}
 
-        {!! Form::label('title', 'タイトル:') !!}
-        {!! Form::text('title') !!}
+        {!! Form::label('status', 'ステータス:') !!}
+        {!! Form::text('status') !!}
         
         {!! Form::label('content', 'メッセージ:') !!}
         {!! Form::text('content') !!}
+        
 
         {!! Form::submit('更新') !!}
 
